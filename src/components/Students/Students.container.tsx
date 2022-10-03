@@ -10,7 +10,7 @@ import { IStudent, IStudents } from "./Students.reducer";
 
 const StudentsContainer = () => {
   const [students, setStudents] = useState<IStudent[]>([
-    { id: "101", name: "Saraswathi", age: 24, marks: 45 },
+    { id: "101", name: "Krishna", age: 24, marks: 45 },
     { id: "102", name: "Vani", age: 26, marks: 48 },
     { id: "103", name: "Ravi", age: 29, marks: 45 },
   ]);
